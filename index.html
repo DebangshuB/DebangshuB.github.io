@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap"
-        rel="stylesheet">
+        href=<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <title>Welcome!</title>
     <style>
         :root {
@@ -78,21 +79,33 @@
         body {
             background-color: var(--bg_h);
             color: var(--fg2);
-            font-family: 'Roboto Mono', monospace;
+            font-family: 'Poppins', sans-serif;
             font-weight: 400;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             padding: none;
             margin: none;
         }
 
         .main-div {
-            width: 60vw;
-            height: 60vh;
+            width: 70vw;
+            height: 70vh;
             margin: auto;
         }
 
         ul {
             list-style: none;
+        }
+
+        @media only screen and (max-width: 600px) {
+            :root {
+                font-size: 0.7rem;
+            }
+
+            .main-div {
+                width: 80vw;
+                height: 80vh;
+                margin: auto;
+            }
         }
     </style>
 </head>
@@ -103,9 +116,9 @@
                 height="50px"> </h1>
         <h3>🙋‍♂️ I'm Debangshu</h3>
         <ul>
-            <li>🎓 I am a Final year Computer Science Student at Kalinga Institute of Industrial Technology.</li>
-            <li>🏠 I'm from Kolkata, India and I'm interested to be a Data Engineer / Data Scientist.</li>
-            <li>📚 Currently I'm learning Data Engineering to help build systems to process data at scale.</li>
+            <li>🎓 I am a Final year Computer Science Student at Kalinga Institute of Industrial Technology</li>
+            <li>🏠 I'm from Kolkata, India and I'm interested to be a Data Engineer / Data Platform Engineer</li>
+            <li>📚 Learning Data Engineering to help build systems to process data at scale</li>
         </ul>
 
         <h3>🤻 Jump to..</h3>
